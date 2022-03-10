@@ -9,8 +9,9 @@ const testData = [
 ]
 
 function App() {
-  const h1Element = <h1>H1 제목 태그 입니당</h1>
+  const h1Element = <h1>H1 제목 태그 입니당</h1>;
   const imgElement = <img src={dog} className = "App-logo" alt="logo" />;
+
   return (
     <div className="App">
       <header className="App-header">
