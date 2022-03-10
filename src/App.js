@@ -3,7 +3,9 @@ import './App.css';
 
 //JSX
 const testData = [
-  "제목 1 입니다."
+  "제목 1 입니다.",
+  "제목 2 입니다.",
+  "제목 3 입니다."
 ]
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
         <p>
           한글로 바꿔보세요. <code>src/App.js</code> and save to reload.
         </p>
+        <ul>
+          {testData.map((contents)=><li>{dontents}</li>)}
+        </ul>
         <a
           className="App-link"
           href="https://reactjs.org"
